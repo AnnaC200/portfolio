@@ -1,52 +1,149 @@
 <!DOCTYPE html>
-<html></html>
+<html>
 <Head>
-   <a href="/Users/Chanda/Projects/portfolio/pages/contact.html" target="_blank">Contact Me</a>
-   <a href="/Users/Chanda/Projects/portfolio/pages/projects.html" target="_blank">Projects</a>
+    <link rel="stylesheet" href="style.css">
+    <a href="#contactme">Contact Me</a>
+    <a href="/Users/Chanda/Projects/portfolio/pages/projects.html" target="_blank">Projects</a>
+    <script src="https://kit.fontawesome.com/3f4ce0235e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Nunito:wght@200&display=swap" rel="stylesheet">
+
 </Head>
+
 <header>
+    <h1>Anna Chan</h1>
+    <h2>Software Development student <a href="https://www.manchestercodes.com/">at Manchester Codes</a></h2>
     <img src="images/Anna Chan.jpg" alt="Anna Chan Photo">
 </header>
 
 <body>
-    <h1>Anna Chan</h1>
-    <h2>New to coding and eager to learn </h2>
-    <br />
-    <hr />
-    <h3>About Me</h3>
-    <P>I'm a mother of 2 boys living in Leeds. Looking for a new career after taking a 4 year career break to look after my boys</P> 
+<div class="aboutme">
+    <h1>Hello</h1>
+    <p>I'm Anna, a 39 years old mother of 2 boys who grew up in Manchester but now lives in Leeds. I'm a proud British born Chinese who is bilingual in English and Cantonese, both spoken with a bit of a Mancunian twang.  </p>
+   
     <figure>
         <img src="images/Lucas Teddy.jpg" alt="Photo of Lucas and Teddy">
         <br />
-        <figcaption>
-            My boys. Teddy, 1 years old and Lucas,1 years old
+        <figcaption style="font-weight: bolder;">
+            My sons - Teddy 1 years old and Lucas 4 years old
         </figcaption>
     </figure>
-    <p>I became interested in coding after taking a CodeAcademy course and realised the potential coding had as a path into the tech industry.</P>
-        <figure>
-            <img src="images/woman coding.jpg" alt="Photo of female coding">
-            <br />
-            <figcaption>
+
+    <p>My background is in Events Management and Sales with over 15 years experience.  Most recently I took a 4 year career break to look after my young family.  During this period i spent time researching careers that can offer flexibility, fulfilment and the opportunity to continously learn in a progressive industry.</p> 
+    
+    <p>Coding filled the criteria so I started small with a few CodeAcademy courses which eventually lead me to studying part-time at Manchester Codes.
+    
+    <figure>
+        <img src="images/woman coding.jpg" alt="Photo of female coding">
+            <figcaption style="font-weight: bolder;">
                Coding offers so much potential and i'm so excited to be on the course
             </figcaption>
-        </figure>
-<head>
-    Qualities
-</head>
+    </figure>
 
-<ol>
-    <li>Resilient</li>
-    <li>Approchable</li>
-    <li>Organised</li>
-</ol>
+<div class ="qualitieshobbies">
 
-<ul>
-    <li>Running</li>
-    <li>Listening to music</li>
-    <li>Interior Design</li>
-</ul>
+    <h2>My Qualities and Hobbies</h2>
+    <ol style="font-size: x-large;">
+        <li>Resilience</li>
+        <li>Approchable</li>
+        <li>Organised</li>
+    </ol>
+    
+    <ul style="font-size: x-large;">
+        <li>Running</li>
+        <li>Listening to music</li>
+        <li>Interior</li>
+    </ul>
+
+</div>
+
+<div class="projects">
+    <h1>Projects</h1>
+        <table>
+            <thead>
+                 <tr>
+                    <th>Project Name</th>
+                    <th>Image</th>
+                    <th>Brief Description</th>
+            </thead>
+                </tr>
+             <tbody>
+                <tr>
+                    <td>Murder Mystery</td>
+                    <td><img src="/images/murder mystery.jpeg" alt="murder mystery image"></td>
+                    <td>Find the killer</td>
+                </tr>
+                <tr>
+                    <td>Patchwork</td>
+                    <td><img src="/images/GitHub.jpeg" alt="Git Hub logo"></td>
+                    <td>Learn to use GitHub</td>
+                </tr>
+                <tr>
+                    <td>Student Roster</td>
+                    <td><img src="/images/student roster.jpeg" alt="Manchester codes student roster image"></td>
+                    <td>Add profile to roster</td>
+                </tr>
+        </tbody>  
+        <tfoot>
+            <tr>
+                <td>Hope you enjoyed perusing my projects</td>
+            </tr>
+        </tfoot>
+        </table>
+</div
+
+<div class ="contactme"></div>
+    <h1 id="contactme">Contact Me</h1>
+    <p>If you would like to contact me please <a href="annachan200@gmail.com">email me</a></p>        
+    <p>Alternatively you can get in touch by completely the below form and stating the reason for contact</p>
+    <form>
+        <fieldset>
+            <legend>Your Details</legend>
+            <label for="fullname">Full name</label>
+            <input id="fullname" type="text>"
+            <label for="email">Email address</label>
+            <input id="email" type="text">
+        </fieldset>
+
+        <fieldset>
+            <legend> Reason for contact</legend>
+        <select name="reasons">
+            <option value ="careers">Careers</option>
+            <option value ="collaboration">Collaboration</option>
+            <label for="otherreason">Any other reason</label>
+            <textarea id="otherreason"></textarea>
+        </select>
+
+        </fieldset>
+    </form>
+
+</div>
+
+<div id=“socials”>
+    <h2>My Socials</h2>
+    <p>Follow me on <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/annachan200">Twitter</a></p>
+    <p>Follow me on <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/anna.lai.zhi/">Instagram</a></p>
+    <p>Follow me on <i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/AnnaChannie">Facebook</a></p>   
+    
+    <input type="checkbox" id="box" name="test-checkbox" checked>
+    <label for="test-checkbox">Check this box for some reason</label>
+       
+    <button disabled>You can't press this...</button>
+</div>
+
+
+<div>
+    <a href="https://twitter.com/annachan200" data-anchor="social">Facebook</a>
+    <a href="instagram.com" data-anchor="social">Instagram</a>
+    <a href="#top" data-anchor="innerLink">
+</div>
+
+
 
 </body>
+
+</html>
 
 
 

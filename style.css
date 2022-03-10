@@ -1,0 +1,21 @@
+body {
+    background-color: #D3DEDC;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7C99AC;
+    font-size: 15px;
+    text-align: center;
+    border: 10px solid #7C99AC;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.qualitieshobbies {
+    width: 300px;
+    border: 10px solid #7C99AC;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+  }
+
+
